@@ -18,9 +18,9 @@ export const NavigationBar = () => {
   }
 
   return (
-    <header className="flex items-center justify-between h-28 w-full px-4">
+    <header className="flex items-center justify-between h-28 w-full px-4 py-2 bg-orange-300 bg-opacity-50 shadow-md">
       <picture>
-        <img src={logo} alt="" className="w-56 h-w-56 rounded-full" />
+        <img src={logo} alt="" className="w-20 h-20 rounded-full" />
       </picture>
       <ul className="flex mr-10 space-x-4">
         {auth?.authUser?.isCustomer && (

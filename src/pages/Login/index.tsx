@@ -31,13 +31,13 @@ export const Login = () => {
   }
 
   return (
-    <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="flex justify-center items-start bg-orange-300 bg-opacity-30 py-20 mx-auto sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
         <h2 className="mt-6 text-center text-4xl font-extrabold text-orange-500">
           Sign in to your account
         </h2>
         <form className="mt-8 space-y-6" onSubmit={handleFormSubmit}>
-          <div className="rounded-md shadow-sm -space-y-px">
+          <div className="rounded-lg shadow-sm -space-y-px">
             <label htmlFor="email-address" className="sr-only">
               Email address
             </label>
@@ -68,7 +68,7 @@ export const Login = () => {
           <div>
             <button
               type="submit"
-              className="group relative w-full flex justify-center py-4 px-4 text-sm font-bold rounded-md text-white bg-orange-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
+              className="group relative w-full flex justify-center py-4 px-4 text-sm font-bold rounded-lg text-white bg-orange-500 focus:outline-none focus:ring-2 focus:ring-offset-2"
             >
               Login
             </button>
