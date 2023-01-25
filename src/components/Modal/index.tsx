@@ -41,7 +41,7 @@ export const Modal = ({ children, open, onClose }: IModalProps) => {
           onClick={handleCloseModal}
         >
           <span>
-            <X size={20} />
+            <X size={22} />
           </span>
         </button>
         <div className="flex flex-col justify-center items-center h-full w-8/12 py-4">
